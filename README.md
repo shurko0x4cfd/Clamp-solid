@@ -44,13 +44,13 @@ const clampHolder = document.querySelector('.clamp-holder-1534705cd763');
 render(Example, clampHolder);
 ```
 
-All props are optional. Defaults:
-with = 100%
-height = 24 actually is thumb width
-float = false
-lowerLimit = 0
-upperLimit = 100 for naturals and 1 for floats
-min, minSet, max, maxSet signals can be omitted, values can be grabbed from "aria-valuenow" props of start and end thumbs
-orient always "horizontal" - not implemented css for vertical
+All props are optional. Defaults:<br>
+with = 100%<br>
+height = 24 actually is thumb width<br>
+float = false<br>
+lowerLimit = 0<br>
+upperLimit = 100 for naturals and 1 for floats<br>
+min, minSet, max, maxSet signals can be omitted, values can be grabbed from "aria-valuenow" props of start and end thumbs<br>
+orient always "horizontal" - not implemented css for vertical<br>
 
 [Live example](https://shurko.one/tmp/clamp/example)
