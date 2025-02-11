@@ -44,7 +44,8 @@ const clampHolder = document.querySelector('.clamp-holder-1534705cd763');
 render(Example, clampHolder);
 ```
 
-All props are optional. Defaults:<br>
+All props are optional. Defaults:
+
 wdith = 100%<br>
 height = 24 actually is thumb width<br>
 float = false<br>
