@@ -17,7 +17,7 @@ npm i -D clamp-solid
 
 import { render } from 'solid-js/web';
 import { createSignal } from 'solid-js';
-import Clamp from '../src/Clamp';
+import Clamp from 'clamp-solid';
 
 
 const Example = () => {
