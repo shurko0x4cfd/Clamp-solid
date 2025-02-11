@@ -1,0 +1,18 @@
+{
+	"name": "clamp-solid",
+	"version": "0.0.1",
+	"author": "Alexander (Shúrko) Stadnichénko",
+	"license": "BSD-2-clause",
+	"homepage": "https://shurko.one/tmp/clamp/example",
+	"install": "npm i -g clamp-solid",
+	"type": "module",
+	"main": "src/Clamp.jsx",
+	"description": "Two-thumb slider SolidJS component",
+	"dependencies": {
+		"solid-js": "^1.9.4"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/shurko0x4cfd/Clamp-solid.git"
+	}
+}

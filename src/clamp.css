@@ -1,0 +1,77 @@
+.clamp {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+}
+
+.clamp * {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+.back-layer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.rail-holder {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.rail {
+	display: flex;
+	height: 4px;
+	background-color: white;
+	border: 1px solid darkgreen;
+}
+
+.start-rail {
+	border-top-left-radius: 1em;
+	border-bottom-left-radius: 1em;
+	border-right: 0px;
+}
+
+.central-rail {
+	background-color: darkgreen;
+	border: none;
+}
+
+.end-rail {
+	border-top-right-radius: 1em;
+	border-bottom-right-radius: 1em;
+	border-left: 0px;
+}
+
+.thumb {
+	touch-action: none;
+	z-index: 1;
+
+	height: 1.5em;
+	width: 1.5em;
+	min-width: 1.5em;
+
+	border-radius: 50%;
+	border: 2px solid darkgreen;
+	background-color: white;
+	cursor: ew-resize;
+}
+
+.thumb:focus {
+	outline-color: rgba(0, 128, 0, 0.5);
+	outline-width: 2px;
+	outline-style: solid;
+}
+
+
+/* Atomic */
+
+.d-none {
+	display: none;
+}
+
+.fg-1 {
+	flex-grow: 1;
+}

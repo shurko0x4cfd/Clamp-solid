@@ -1,0 +1,29 @@
+html,
+body {
+	height: 100%;
+
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.clamp-holder-1534705cd763 {
+	box-sizing: border-box;
+	width: max-content;
+	max-width: 400px;
+	padding: 2px;
+}
+
+.example {
+	border: 1px solid lightgrey;
+	padding: 1em 2em;
+}
+
+.numbers {
+	display: flex;
+	flex-direction: row;
+	gap: 1em;
+	margin-top: 0.5em;
+}
