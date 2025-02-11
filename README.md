@@ -45,7 +45,7 @@ render(Example, clampHolder);
 ```
 
 All props are optional. Defaults:<br>
-with = 100%<br>
+wdith = 100%<br>
 height = 24 actually is thumb width<br>
 float = false<br>
 lowerLimit = 0<br>
