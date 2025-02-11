@@ -9,7 +9,7 @@ Draft, not production ready. Arrow keys are  not supported.
 Usage:
 
 ```bash
-mpm i -D clamp-solid
+npm i -D clamp-solid
 ```
 
 ```JavaScript
