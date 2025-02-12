@@ -210,7 +210,7 @@ const Clamp = props => {
 
 			<div role='slider' aria-label='Max slider thumb'
 				aria-description='Control of maximal value'
-				class='thumb thumb_ens'
+				class='thumb thumb_end'
 				tabindex={0}
 				aria-valuenow={currentMax()}
 				aria-valuemin={absMin}
