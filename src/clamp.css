@@ -29,6 +29,7 @@
 }
 
 .start-rail {
+	margin-left: 1px;
 	border-top-left-radius: 1em;
 	border-bottom-left-radius: 1em;
 	border-right: 0px;
